@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <meta name="description" content="Biolink Malfarizi" />
+    <meta
+      name="keywords"
+      content="Biolink, Malfarizi, Info Malfarizi"
+    />
+    <meta name="author" content="Malfarizi" />
+    <title>BioLink | Malfarizi</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- My Css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <!-- For Animation -->
+    <link rel="stylesheet" href="assets/css/animate-css/animate.min.css" />
+    <!-- For Tooltip -->
+    <link rel="stylesheet" href="assets/css/hint.css-2.7.0/hint.min.css" />
+  </head>
+  <body>
+    <!-- Cursor New Dot -->
+    <div class="cursor-dot"></div>
+
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <figure class="animate__animated animate__zoomIn">
+          <img
+            src="assets/img/profile.jpg"
+            alt="Malfarizi Profile"
+            data-tilt
+            data-tilt-glare
+            data-tilt-max-glare="0.8"
+          />
+          <span
+            class="sayHello hint--bottom hint--medium"
+            aria-label="Hi everyone, how are you? Could i help you?"
+            data-tilt
+            >Hi!</span
+          >
+          <figcaption>I can, <span id="typed"></span></figcaption>
+        </figure>
+        <section>
+          <h2 class="title animate__animated animate__fadeInDownBig">
+            Malfarizi
+          </h2>
+          <p class="animate__animated animate__bounceInUp">
+            Content Creator | Web Developer
+          </p>
+        </section>
+      </header>
+
+      <hr />
+
+      <!-- Content -->
+      <article>
+        <section class="sosmed animate__animated animate__zoomIn">
+          <div class="row">
+            <div class="col">
+              <h3>
+                <span
+                  class="hint--top hint--medium"
+                  aria-label="Sharing Knowledge, Daily Activity Content."
+                  >TikTok</span
+                >
+              </h3>
+              <p>Foll : <span id="follower-count-tiktok">53</span></p>
+              <a href="#" target="_blank" data-color="#333">
+                <span class="icon-sosmed" title="TikTok">
+                  <i class="fa-brands fa-tiktok"></i>
+                </span>
+              </a>
+            </div>
+            <div class="col">
+              <h3>
+                <span
+                  class="hint--top hint--medium"
+                  aria-label="Video Tutorial, Tips & Tricks, Podcast, All About Web Developer."
+                  >YouTube</span
+                >
+              </h3>
+              <p>Subs : <span id="subscriber-count-youtube">10</span></p>
+              <a href="#" target="_blank" data-color="#FF0000">
+                <span class="icon-sosmed" title="YouTube">
+                  <i class="fa-brands fa-youtube"></i>
+                </span>
+              </a>
+            </div>
+            <div class="col">
+              <h3>
+                <span
+                  class="hint--top hint--medium"
+                  aria-label="Sharing Source Code, My Portfolio Code."
+                  >GitHub</span
+                >
+              </h3>
+              <p>Repo : <span id="repo-count-github">5</span></p>
+              <a href="#" target="_blank" data-color="#181717">
+                <span class="icon-sosmed" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="btn-link">
+          <ul>
+            <a href="#" target="_blank"
+              ><li class="animate__animated animate__bounceInLeft">
+                Personal Website
+              </li></a
+            >
+            <a href="#" target="_blank"
+              ><li class="animate__animated animate__bounceInLeft">
+                My Achievement
+              </li></a
+            >
+            <a href="#" target="_blank"
+              ><li class="animate__animated animate__bounceInLeft">
+                Email for Bussiness
+              </li></a
+            >
+            <a href="#" target="_blank"
+              ><li class="animate__animated animate__bounceInLeft">
+                Support Me
+              </li></a
+            >
+          </ul>
+        </section>
+      </article>
+
+      <!-- Footer -->
+      <footer>
+        <p class="animate__animated animate__bounceInUp animate__delay-1s">
+          Created with
+          <span
+            class="love-icon hint--top hint--medium"
+            aria-label="I Love Programming"
+            data-tilt
+            >&#10084;</span
+          >
+          by <a href="#">Malfarizi</a>
+        </p>
+        <section
+          class="sosmed-footer animate__animated animate__bounceInUp animate__delay-1s"
+        >
+          <a href="#" target="_blank">
+            <span class="icon-sosmed" title="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="icon-sosmed" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+          </a>
+          <a href="#" target="_blank">
+            <span class="icon-sosmed" title="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+          </a>
+        </section>
+      </footer>
+    </div>
+
+    <!-- Typed Js -->
+    <script src="assets/js/typed-js/typed.js@2.0.12"></script>
+
+    <!-- Typed Js Config -->
+    <script>
+      var typed3 = new Typed("#typed", {
+        strings: [
+          "build a Modern Web",
+          "help Brands Go Digital",
+          "Turn Ideas into Code",
+        ],
+        typeSpeed: 80,
+        backSpeed: 2,
+        startDelay: 1500,
+        backDelay: 1200,
+        smartBackspace: true, // this is a default
+        loop: true,
+      });
+    </script>
+
+    <!-- Tilt Js -->
+    <script src="assets/js/tilt-js/vanilla-tilt.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Youtube Subs Count API -->
+    <script src="assets/js/youtube-subs-count-api.js"></script>
+
+    <!-- Tiktok Followers Count -->
+    <script src="assets/js/tiktok-followers-count.js"></script>
+
+    <!-- Github Repo Count -->
+    <script src="assets/js/github-repo-count.js"></script>
+
+    <!-- Cursor New Dot -->
+    <script>
+      // JS Cursor
+      const cursorDot = document.querySelector(".cursor-dot");
+
+      document.addEventListener("mousemove", (e) => {
+        cursorDot.style.top = `${e.clientY}px`;
+        cursorDot.style.left = `${e.clientX}px`;
+      });
+
+      // Hover effect untuk link & tombol
+      document.querySelectorAll("a, button").forEach((el) => {
+        el.addEventListener("mouseenter", () =>
+          cursorDot.classList.add("hover")
+        );
+        el.addEventListener("mouseleave", () =>
+          cursorDot.classList.remove("hover")
+        );
+      });
+    </script>
+
+    <!-- Color Sosmed -->
+    <script>
+      document.querySelectorAll(".sosmed a").forEach((a) => {
+        const color = a.getAttribute("data-color");
+        a.style.setProperty("--icon-bg", color);
+      });
+    </script>
+  </body>
+</html>
+
+
+<!-- TikTok -->
+<a href="https://www.tiktok.com/@alfrzzz.1" target="_blank" data-color="#333">
+  <span class="icon-sosmed" title="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </span>
+</a>
+
+<!-- YouTube -->
+<a href="https://www.youtube.com/@m.alfarizi" target="_blank" data-color="#FF0000">
+  <span class="icon-sosmed" title="YouTube">
+    <i class="fa-brands fa-youtube"></i>
+  </span>
+</a>
+
+<!-- GitHub -->
+<a href="https://github.com/Alfarizi-1212" target="_blank" data-color="#181717">
+  <span class="icon-sosmed" title="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </span>
+</a>
+
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/muhammad-alfarizi-a9289234b" target="_blank">
+  <span class="icon-sosmed" title="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </span>
+</a>
+
+<!-- Instagram -->
+<a href="https://www.instagram.com/rezikkkkk_" target="_blank">
+  <span class="icon-sosmed" title="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </span>
+</a>
+
+<!-- Twitter (X) -->
+<a href="https://twitter.com/" target="_blank">
+  <span class="icon-sosmed" title="Twitter">
+    <i class="fa-brands fa-twitter"></i>
+  </span>
+</a>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/6289517144685" target="_blank" data-color="#25D366">
+  <span class="icon-sosmed" title="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </span>
+</a>
